@@ -15,6 +15,7 @@ struct Constants {
     static let upcomingString = "Upcoming"
     static let searchString = "Search"
     static let downloadString = "Download"
+    static let playString = "Play"
 
     //variables for icons for the tab bar
     static let homeIcon = "house"

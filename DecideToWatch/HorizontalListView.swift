@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct HorizontalListView: View {
+    let header = Constants.trendingMoviesString
+    var titles = [Constants.testTitleURL, Constants.testTitleURL2, Constants.testTitleURL3 ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text(header)
+                .font(.title)
+            
+            ScrollView() {
+                
+            }
+        }
     }
 }
 
