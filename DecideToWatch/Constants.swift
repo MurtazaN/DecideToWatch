@@ -23,9 +23,12 @@ struct Constants {
     static let downloadIcon = "arrow.down.to.line" // also in home view
     
     //Home View
-    static let testTitleURL = "https://media.themoviedb.org/t/p/w300_and_h450_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
-    static let playString = "Play"
-    static let testTitleURL = "https://media.themoviedb.org/t/p/w300_and_h450_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+    static let testTitleURL = "https://media.themoviedb.org/t/p/w300_and_h450_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg" //the pitt
+    static let trendingMoviesString = "Trending Movies"
+    static let testTitleURL2 = "https://media.themoviedb.org/t/p/w600_and_h900_face/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg" //Michael
+    static let testTitleURL3 = "https://media.themoviedb.org/t/p/w600_and_h900_face/ygWXPL0RS91JyJPNOfK34eV3bRE.jpg" //vengance
+    static let testTitleURL4 = "https://media.themoviedb.org/t/p/w440_and_h660_face/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg" //crime101
+
 
 }
 

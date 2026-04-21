@@ -40,7 +40,7 @@ struct HomeView: View {
                 }
             }
             
-            // four tabs under buttons - tending movies, tv shows, 
+            // four tabs under buttons - trending movies, tv shows, top rated movies, top tv shows
         }
     }
 }
