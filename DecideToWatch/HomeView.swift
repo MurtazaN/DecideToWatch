@@ -22,7 +22,11 @@ struct HomeView: View {
                         //  .scaledToFill()
                             .scaledToFit()
                             .overlay {
-                                
+                                LinearGradient( // smooth transition using colors in a straight line
+                                    stops: [Gradient.Stop(color: .clear, location: 0.8), //fades into clear
+                                            Gradient.Stop(color: .gradients, location: 1.0)], //fade into custom gradients color (to make themes)
+                                    startPoint: .top, // directio of gradient; starts at top of async image
+                                    endPoint: .bottom) //stops at bottom of async image
                             }
                     } placeholder: {
                         ProgressView()
