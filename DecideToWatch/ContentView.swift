@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  DecideToWatch
 //
-//  Created by Bridge Informatics on 4/17/26.
+//  Created by Murtaza Nipplewala on 4/17/26.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView{
             Tab(Constants.homeString, systemImage: Constants.homeIcon){
-                Text(Constants.homeString)
+                HomeView()
             }
             Tab(Constants.upcomingString, systemImage: Constants.upcomingIcon){
                 Text(Constants.upcomingString)
