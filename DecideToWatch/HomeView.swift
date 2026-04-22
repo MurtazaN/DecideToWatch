@@ -46,8 +46,10 @@ struct HomeView: View {
                     // four tabs under buttons - trending movies, tv shows, top rated movies, top tv shows
                     HorizontalListView(header: Constants.trendingMoviesString)
                     HorizontalListView(header: Constants.topRatedMoviesString)
+                    HorizontalListView(header: Constants.upcomingMoviesString) //
                     HorizontalListView(header: Constants.trendingTVString)
                     HorizontalListView(header: Constants.topRatedTVString)
+                    HorizontalListView(header: Constants.upcomingTVString) //
                     
                     
                 }
