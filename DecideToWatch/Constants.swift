@@ -2,7 +2,7 @@
 //  Constants.swift
 //  DecideToWatch
 //
-//  Created by Bridge Informatics on 4/17/26.
+//  Created by Murtaza N on 4/17/26.
 //
 
 import Foundation
@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Constants {
     
-    //Static variables for the tab bar
+    //variables for the tab bar
     static let homeString = "Home"
     static let upcomingString = "Upcoming"
     static let searchString = "Search"
@@ -23,10 +23,13 @@ struct Constants {
     static let searchIcon = "magnifyingglass"
     static let downloadIcon = "arrow.down.to.line" // also in home view
     
-    //Home View
+    //Home View sample images
     static let testTitleURL = "https://media.themoviedb.org/t/p/w300_and_h450_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg" //the pitt
-    
-    //Horizontal List View
+    static let testTitleURL2 = "https://media.themoviedb.org/t/p/w600_and_h900_face/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg" //Michael
+    static let testTitleURL3 = "https://media.themoviedb.org/t/p/w600_and_h900_face/ygWXPL0RS91JyJPNOfK34eV3bRE.jpg" //vengance
+    static let testTitleURL4 = "https://media.themoviedb.org/t/p/w440_and_h660_face/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg" //crime101
+
+    //Horizontal List View part of home
     static let trendingMoviesString = "Trending Movies"
     static let upcomingMoviesString = "Upcoming Movies"
     static let topRatedMoviesString = "Top Rated Movies"
@@ -34,14 +37,11 @@ struct Constants {
     static let upcomingTVString = "Upcoming TV"
     static let topRatedTVString = "Top Rated TV"
     
-    static let testTitleURL2 = "https://media.themoviedb.org/t/p/w600_and_h900_face/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg" //Michael
-    static let testTitleURL3 = "https://media.themoviedb.org/t/p/w600_and_h900_face/ygWXPL0RS91JyJPNOfK34eV3bRE.jpg" //vengance
-    static let testTitleURL4 = "https://media.themoviedb.org/t/p/w440_and_h660_face/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg" //crime101
 
-
+//    static let tmdbURL = "https://api.themmoviedb.org/t/p/w500"
 }
 
-
+// bottons on home view
 extension Text {
     func ghostButtonStyle() -> some View {
         self
@@ -50,7 +50,7 @@ extension Text {
             .bold()
             .background {
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .stroke(lineWidth: 5)
+                    .stroke(.buttonBorder, lineWidth: 5)
             }
     }
 }

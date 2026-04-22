@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  DecideToWatch
 //
-//  Created by Bridge Informatics on 4/17/26.
+//  Created by Murtaza N on 4/17/26.
 //
 
 import SwiftUI
