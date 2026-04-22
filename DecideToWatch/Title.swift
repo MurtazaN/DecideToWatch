@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Title { //structure - lightweight way to group related data together
-    var id: Int
-    var title: String
-    var overview: String
-    var posterPath: String
+struct Title : Decodable, Identifiable{ //structure - lightweight way to group related data together
+    var id: Int?
+    var title: String? // "?" for optional
+    var name: String?
+    var overview: String?
+    var posterPath: String?
 }
