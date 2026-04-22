@@ -21,6 +21,9 @@ struct HomeView: View {
                             .resizable()
                         //  .scaledToFill()
                             .scaledToFit()
+                            .overlay {
+                                
+                            }
                     } placeholder: {
                         ProgressView()
                     }
